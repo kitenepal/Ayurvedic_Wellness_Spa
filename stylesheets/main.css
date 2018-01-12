@@ -19,14 +19,40 @@
   border-radius: 5px;
   outline: none;
   border: none;
-  color: #85ad00;
   transition: 0.5s;
 }
 
-/* line 21, ../sass/base/_base.scss */
+/* line 20, ../sass/base/_base.scss */
 .btn--dark:hover {
   background-color: #444444;
   color: white;
+}
+
+/* line 25, ../sass/base/_base.scss */
+.btn--light {
+  background-color: #85ad00;
+  color: #292929;
+  padding: 7px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  transition: 0.5s;
+}
+
+/* line 35, ../sass/base/_base.scss */
+.btn--light:hover {
+  background-color: #a8c14b;
+  color: #444444;
+}
+
+/* line 40, ../sass/base/_base.scss */
+.top-margin {
+  margin: 80px 0px;
+}
+
+/* line 44, ../sass/base/_base.scss */
+.top-button-margin {
+  margin: 20px 0px;
 }
 
 /* line 1, ../sass/module/_navbar.scss */
@@ -57,4 +83,150 @@
 /* line 6, ../sass/module/_about.scss */
 .about--content {
   margin-top: 150px;
+}
+
+/* line 1, ../sass/module/_advantages.scss */
+.advantages {
+  background-color: #292929;
+  height: 80vh;
+  color: #85ad00;
+}
+/* line 5, ../sass/module/_advantages.scss */
+.advantages > a {
+  color: white;
+}
+
+/* line 10, ../sass/module/_advantages.scss */
+.box {
+  text-align: center;
+}
+/* line 11, ../sass/module/_advantages.scss */
+.box i {
+  font-size: 50px;
+  border: 2px solid #85ad00;
+  border-radius: 50%;
+  padding: 25px 30px;
+}
+/* line 17, ../sass/module/_advantages.scss */
+.box h3 {
+  font-weight: bold;
+}
+
+/* line 1, ../sass/module/_ourteam.scss */
+.profile {
+  margin-top: 25px;
+}
+
+/* line 4, ../sass/module/_ourteam.scss */
+.profile h1 {
+  font-weight: normal;
+  font-size: 20px;
+  margin: 10px 0 0 0;
+}
+
+/* line 9, ../sass/module/_ourteam.scss */
+.profile h2 {
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: 5px;
+}
+
+/* line 14, ../sass/module/_ourteam.scss */
+.profile .img-box {
+  opacity: 1;
+  display: block;
+  position: relative;
+}
+
+/* line 19, ../sass/module/_ourteam.scss */
+.profile .img-box:after {
+  content: "";
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+/* line 29, ../sass/module/_ourteam.scss */
+.img-box ul {
+  position: absolute;
+  z-index: 2;
+  bottom: 50px;
+  text-align: center;
+  width: 100%;
+  padding-left: 0px;
+  height: 0px;
+  margin: 0px;
+  opacity: 0;
+}
+
+/* line 40, ../sass/module/_ourteam.scss */
+.profile .img-box:after, .img-box ul, .img-box ul li {
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+/* line 45, ../sass/module/_ourteam.scss */
+.img-box ul i {
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+
+/* line 49, ../sass/module/_ourteam.scss */
+.img-box ul li {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid #88C425;
+  margin: 2px;
+  padding: 5px;
+  display: inline-block;
+}
+
+/* line 58, ../sass/module/_ourteam.scss */
+.img-box a {
+  color: #fff;
+}
+
+/* line 61, ../sass/module/_ourteam.scss */
+.img-box:hover:after {
+  opacity: 1;
+}
+
+/* line 64, ../sass/module/_ourteam.scss */
+.img-box:hover ul {
+  opacity: 1;
+}
+
+/* line 67, ../sass/module/_ourteam.scss */
+.img-box ul a {
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+/* line 72, ../sass/module/_ourteam.scss */
+.img-box a:hover li {
+  border-color: #fff;
+  color: #88C425;
+}
+
+/* line 76, ../sass/module/_ourteam.scss */
+a {
+  color: #88C425;
+}
+
+/* line 79, ../sass/module/_ourteam.scss */
+a:hover {
+  text-decoration: none;
+  color: #519548;
+}
+
+/* line 83, ../sass/module/_ourteam.scss */
+i.red {
+  color: #BC0213;
 }

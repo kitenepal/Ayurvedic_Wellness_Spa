@@ -14,11 +14,33 @@
 	border-radius: 5px;
 	outline: none;
 	border: none;
-	color: $primary-color;
 	transition: 0.5s;
 }
 
 .btn--dark:hover{
 	background-color: $light-secondary;
 	color: white;
+}
+
+.btn--light{
+	background-color: $primary-color;
+	color: $secondary-color;
+	padding: 7px 10px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	transition: 0.5s;
+}
+
+.btn--light:hover{
+	background-color: $light-primary;
+	color: $light-secondary;
+}
+
+.top-margin{
+	margin: 80px 0px;
+}
+
+.top-button-margin{
+	margin: 20px 0px;
 }
