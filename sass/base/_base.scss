@@ -1,0 +1,24 @@
+.heading{
+	font-family: $heading-font;
+}
+
+.paragraph{
+	font-family: $paragraph-font;
+	font-size: 20px;
+}
+
+.btn--dark{
+	background-color: $secondary-color;
+	color: $primary-color;
+	padding: 7px 10px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	color: $primary-color;
+	transition: 0.5s;
+}
+
+.btn--dark:hover{
+	background-color: $light-secondary;
+	color: white;
+}
