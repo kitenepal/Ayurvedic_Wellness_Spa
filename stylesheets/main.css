@@ -229,3 +229,12 @@ a:hover {
 i.red {
   color: #BC0213;
 }
+
+/* line 1, ../sass/module/_contact.scss */
+.contact {
+  background-color: #85ad00;
+}
+/* line 3, ../sass/module/_contact.scss */
+.contact--box {
+  padding: 15px;
+}
