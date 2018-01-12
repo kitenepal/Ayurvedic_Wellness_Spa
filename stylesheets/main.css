@@ -52,7 +52,7 @@
 
 /* line 44, ../sass/base/_base.scss */
 .top-button-margin {
-  margin: 20px 0px;
+  margin: 30px 0px;
 }
 
 /* line 1, ../sass/module/_navbar.scss */
@@ -88,26 +88,25 @@
 /* line 1, ../sass/module/_advantages.scss */
 .advantages {
   background-color: #292929;
-  height: 80vh;
   color: #85ad00;
 }
-/* line 5, ../sass/module/_advantages.scss */
+/* line 4, ../sass/module/_advantages.scss */
 .advantages > a {
   color: white;
 }
 
-/* line 10, ../sass/module/_advantages.scss */
+/* line 9, ../sass/module/_advantages.scss */
 .box {
   text-align: center;
 }
-/* line 11, ../sass/module/_advantages.scss */
+/* line 10, ../sass/module/_advantages.scss */
 .box i {
   font-size: 50px;
   border: 2px solid #85ad00;
   border-radius: 50%;
   padding: 25px 30px;
 }
-/* line 17, ../sass/module/_advantages.scss */
+/* line 16, ../sass/module/_advantages.scss */
 .box h3 {
   font-weight: bold;
 }
