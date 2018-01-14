@@ -5,3 +5,13 @@
 		color: white;	
 	}
 }
+
+.navbar-right{
+	a{
+		transition: 0.3s;
+	}
+	a:hover{
+		color: white;
+		background-color: $primary-color !important;
+	}
+}

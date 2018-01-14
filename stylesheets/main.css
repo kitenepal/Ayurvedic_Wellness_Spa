@@ -9,9 +9,10 @@
 .paragraph {
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 20px;
+  line-height: 22px;
 }
 
-/* line 10, ../sass/base/_base.scss */
+/* line 11, ../sass/base/_base.scss */
 .btn--dark {
   background-color: #292929;
   color: #85ad00;
@@ -22,13 +23,13 @@
   transition: 0.5s;
 }
 
-/* line 20, ../sass/base/_base.scss */
+/* line 21, ../sass/base/_base.scss */
 .btn--dark:hover {
   background-color: #444444;
   color: white;
 }
 
-/* line 25, ../sass/base/_base.scss */
+/* line 26, ../sass/base/_base.scss */
 .btn--light {
   background-color: #85ad00;
   color: #292929;
@@ -39,18 +40,18 @@
   transition: 0.5s;
 }
 
-/* line 35, ../sass/base/_base.scss */
+/* line 36, ../sass/base/_base.scss */
 .btn--light:hover {
   background-color: #a8c14b;
   color: #444444;
 }
 
-/* line 40, ../sass/base/_base.scss */
+/* line 41, ../sass/base/_base.scss */
 .top-margin {
   margin: 80px 0px;
 }
 
-/* line 44, ../sass/base/_base.scss */
+/* line 45, ../sass/base/_base.scss */
 .top-button-margin {
   margin: 30px 0px;
 }
@@ -65,24 +66,181 @@
   color: white;
 }
 
-/* line 1, ../sass/module/_hero.scss */
-.hero {
-  width: 100%;
-  height: 100vh;
-  background-image: url("../img/hero.jpg");
-  background-size: cover;
+/* line 10, ../sass/module/_navbar.scss */
+.navbar-right a {
+  transition: 0.3s;
+}
+/* line 13, ../sass/module/_navbar.scss */
+.navbar-right a:hover {
+  color: white;
+  background-color: #85ad00 !important;
 }
 
+/*
+Fade content bs-carousel with hero headers
+Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
+Image credits: unsplash.com
+*/
+/********************************/
+/*       Fade Bs-carousel       */
+/********************************/
+/* line 17, ../sass/module/_hero.scss */
+.fade-carousel {
+  position: relative;
+  height: 100vh;
+}
+
+/* line 21, ../sass/module/_hero.scss */
+.fade-carousel .carousel-inner .item {
+  height: 100vh;
+}
+
+/* line 24, ../sass/module/_hero.scss */
+.fade-carousel .carousel-indicators > li {
+  margin: 0 2px;
+  background-color: #f39c12;
+  border-color: #f39c12;
+  opacity: .7;
+}
+
+/* line 30, ../sass/module/_hero.scss */
+.fade-carousel .carousel-indicators > li.active {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+
+/********************************/
+/*          Hero Headers        */
+/********************************/
+/* line 39, ../sass/module/_hero.scss */
+.hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.75);
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  -moz-transform: translate3d(-50%, -50%, 0);
+  -ms-transform: translate3d(-50%, -50%, 0);
+  -o-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+}
+
+/* line 54, ../sass/module/_hero.scss */
+.hero h1 {
+  font-size: 6em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 61, ../sass/module/_hero.scss */
+.fade-carousel .carousel-inner .item .hero {
+  opacity: 0;
+  -webkit-transition: 2s all ease-in-out .1s;
+  -moz-transition: 2s all ease-in-out .1s;
+  -ms-transition: 2s all ease-in-out .1s;
+  -o-transition: 2s all ease-in-out .1s;
+  transition: 2s all ease-in-out .1s;
+}
+
+/* line 69, ../sass/module/_hero.scss */
+.fade-carousel .carousel-inner .item.active .hero {
+  opacity: 1;
+  -webkit-transition: 2s all ease-in-out .1s;
+  -moz-transition: 2s all ease-in-out .1s;
+  -ms-transition: 2s all ease-in-out .1s;
+  -o-transition: 2s all ease-in-out .1s;
+  transition: 2s all ease-in-out .1s;
+}
+
+/********************************/
+/*            Overlay           */
+/********************************/
+/* line 81, ../sass/module/_hero.scss */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+/********************************/
+/*          Custom Buttons      */
+/********************************/
+/* line 91, ../sass/module/_hero.scss */
+.btn.btn-lg {
+  padding: 10px 40px;
+}
+
+/* line 92, ../sass/module/_hero.scss */
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus {
+  color: #f5f5f5;
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+  outline: none;
+  margin: 20px auto;
+}
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+/* line 105, ../sass/module/_hero.scss */
+.fade-carousel .slides .slide-1,
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* line 113, ../sass/module/_hero.scss */
+.fade-carousel .slides .slide-1 {
+  background-image: url(../img/hero.jpg);
+}
+
+/* line 116, ../sass/module/_hero.scss */
+.fade-carousel .slides .slide-2 {
+  background-image: url(https://ununsplash.imgix.net/photo-1416339684178-3a239570f315?q=75&fm=jpg&s=c39d9a3bf66d6566b9608a9f1f3765af);
+}
+
+/* line 119, ../sass/module/_hero.scss */
+.fade-carousel .slides .slide-3 {
+  background-image: url(https://ununsplash.imgix.net/photo-1416339276121-ba1dfa199912?q=75&fm=jpg&s=9bf9f2ef5be5cb5eee5255e7765cb327);
+}
+
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px) {
+  /* line 127, ../sass/module/_hero.scss */
+  .hero {
+    width: 980px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 130, ../sass/module/_hero.scss */
+  .hero h1 {
+    font-size: 4em;
+  }
+}
 /* line 1, ../sass/module/_about.scss */
 .about {
   width: 100%;
-  height: 80vh;
+  padding-bottom: 80px;
   background-image: url("../img/about.jpg");
   background-size: cover;
 }
 /* line 6, ../sass/module/_about.scss */
 .about--content {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 /* line 1, ../sass/module/_advantages.scss */
@@ -318,4 +476,19 @@ footer hr {
 /* line 64, ../sass/module/_footer.scss */
 .right h4 {
   margin-right: 7px;
+}
+
+/* line 1, ../sass/module/_copyright.scss */
+.copyright {
+  padding: 10px;
+  background-color: #85ad00;
+}
+/* line 4, ../sass/module/_copyright.scss */
+.copyright a {
+  color: white;
+}
+/* line 7, ../sass/module/_copyright.scss */
+.copyright a:hover {
+  color: white;
+  text-decoration: none;
 }

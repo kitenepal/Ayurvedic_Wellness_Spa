@@ -5,8 +5,8 @@
 	<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" href="img/spa_logo.png">
-	<link rel="stylesheet" href="stylesheets/main.css">
 	<link rel="stylesheet" href="stylesheets/bootstrap-3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="stylesheets/main.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -14,7 +14,7 @@
 </head>
 <body>
  
-<!-- Second navbar for search -->
+<!-- Navbar Start -->
 <nav class="navbar navbar-fixed-top">
 	<div class="navbar-no-radius">
 	  <div class="container">
@@ -50,10 +50,54 @@
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container -->
   </div>
-</nav><!-- /.navbar -->
+</nav>
+<!-- /.navbar -->
    
-<section class="hero">
-	
+
+
+<section class="">
+	<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+		<!-- Overlay -->
+		<div class="overlay"></div>
+
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+		  <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+		  <li data-target="#bs-carousel" data-slide-to="1"></li>
+		  <li data-target="#bs-carousel" data-slide-to="2"></li>
+		</ol>
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner">
+		  <div class="item slides active">
+		    <div class="slide-1"></div>
+		    <div class="hero">
+		      <hgroup>
+		          <h1>We are creative</h1>        
+		          <h3>Get start your next awesome project</h3>
+		      </hgroup>
+		    </div>
+		  </div>
+		  <div class="item slides">
+		    <div class="slide-2"></div>
+		    <div class="hero">        
+		      <hgroup>
+		          <h1>We are smart</h1>        
+		          <h3>Get start your next awesome project</h3>
+		      </hgroup>       
+		    </div>
+		  </div>
+		  <div class="item slides">
+		    <div class="slide-3"></div>
+		    <div class="hero">        
+		      <hgroup>
+		          <h1>We are amazing</h1>        
+		          <h3>Get start your next awesome project</h3>
+		      </hgroup>
+		    </div>
+		  </div>
+		</div> 
+	</div>
 </section>
 
 <section class="about">
@@ -85,17 +129,17 @@
 			<div class="col-md-4 box">
 				<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
 				<h3>100% Natural Products</h3>
-				<p>We are committed to using only 100% natural and synthetic-free products for all of our services. Our skin care lines are so pure, you can literally eat them.</p>
+				<p class="paragraph">We are committed to using only 100% natural and synthetic-free products for all of our services. Our skin care lines are so pure.</p>
 			</div>
 			<div class="col-md-4 box">
 				<i class="fa fa-user-o" aria-hidden="true"></i>
 				<h3>Professional Beauticians</h3>
-				<p>You are why we do what we do. Providing you with the best possible experience every time you walk through our doors is our primary focus.</p>
+				<p class="paragraph">You are why we do what we do. Providing you with the best possible experience every time you walk through our doors is our primary focus.</p>
 			</div>
 			<div class="col-md-4 box">
 				<i class="fa fa-star-o" aria-hidden="true"></i>
 				<h3>Special Offers for you</h3>
-				<p>Our priority is your great service and an even better experience. We value all of our clients and will do our best to make sure you are completely satisfied.</p>				
+				<p class="paragraph">Our priority is your great service and an even better experience. We value all of our clients and will do our best to make sure you are completely satisfied.</p>				
 			</div>
 		</div>
 		<center><a href="#"> <button class="btn--light top-button-margin"> Read More </button> </a></center>
@@ -120,7 +164,7 @@
               </div>
               <h1>Marrie Doi</h1>
               <h2>Co-founder/ Operations</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 profile">
               <div class="img-box">
@@ -133,7 +177,7 @@
               </div>
               <h1>Christopher Di</h1>
               <h2>Co-founder/ Projects</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 profile">
               <div class="img-box">
@@ -146,7 +190,7 @@
               </div>
               <h1>Heather H</h1>
               <h2>Co-founder/ Marketing</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
           </div>
         </div>
@@ -195,18 +239,18 @@
 				<center>
 					<img src="img/spa_logo.png" alt="Logo" width="100" height="110px" style="margin:0px">
 					<h4 class="heading">Ayurbedic Wellness Spa</h4>
-					<p> Peace of Wellness</p>
+					<p class="paragraph"> Peace of Wellness</p>
 				</center>
 			</div>
 			<div class="col-md-3">
 				<h4 class="heading"> About </h4>
-				<p>Ayurvedic spa treatments are the crème de la crème of the massage world. They've been tried and tested through the ages in India, not only for relaxation, but for health benefits such as improving circulation, toning the muscles, calming the nerves, lubricating <a href="#">[..] Read More</a></p>
+				<p class="paragraph">Ayurvedic spa treatments are the crème de la crème of the massage world. They've been tried and tested through the ages in India, not only for relaxation, but for health benefits such as improving circulation, toning the muscles, calming the nerves, lubricating <a href="#">[..] Read More</a></p>
 			</div>
 			<div class="col-md-3">
 				<h4 class="heading">Contact</h4>
-				<p>Address: Dhulikhel, Kavre </p>
-				<p>Email: sumanlama007123@gmail.com</p>
-				<p>Mobile No.: 9861569964</p>
+				<p class="paragraph">Address: Dhulikhel, Kavre </p>
+				<p class="paragraph">Email: sumanlama007123@gmail.com</p>
+				<p class="paragraph">Mobile No.: 9861569964</p>
 			</div>
 			<div class="col-md-3">
 				<h4 class="heading">Get in touch with us</h4>
@@ -223,5 +267,12 @@
 	</div>
 </footer>
 
+<div class="copyright">
+	<div class="container">
+		<div class="col-md-12">
+			<center><p class="paragraph">Copyright by <a href="#"> KITE Nepal </a> , 2018</p></center>
+		</div>
+	</div>
+</div>
 </body>
 </html>
