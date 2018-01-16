@@ -613,14 +613,15 @@ footer hr {
 
 /* line 1, ../sass/module/_copyright.scss */
 .copyright {
-  padding: 10px;
-  background-color: #85ad00;
+  padding-top: 15px;
+  background-color: #141414;
+  color: #85ad00;
 }
-/* line 4, ../sass/module/_copyright.scss */
+/* line 5, ../sass/module/_copyright.scss */
 .copyright a {
   color: white;
 }
-/* line 7, ../sass/module/_copyright.scss */
+/* line 8, ../sass/module/_copyright.scss */
 .copyright a:hover {
   color: white;
   text-decoration: none;
@@ -634,4 +635,14 @@ footer hr {
 /* line 4, ../sass/module/pages_css/_about.scss */
 .about--wrap .img-thumbnail {
   border-radius: 0px;
+}
+
+/* line 1, ../sass/module/pages_css/_services.scss */
+.services-wrap {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+/* line 4, ../sass/module/pages_css/_services.scss */
+.services-wrap p {
+  font-family: "PT Sans Narrow", sans-serif;
 }
