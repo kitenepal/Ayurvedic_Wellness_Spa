@@ -142,13 +142,19 @@ Image credits: unsplash.com
 
 /* line 54, ../sass/module/_hero.scss */
 .hero h1 {
-  font-size: 6em;
+  font-size: 4em;
   font-weight: bold;
   margin: 0;
   padding: 0;
 }
 
 /* line 61, ../sass/module/_hero.scss */
+.hero h3 {
+  font-family: "Pacifico", cursive;
+  text-transform: Capitalize;
+}
+
+/* line 66, ../sass/module/_hero.scss */
 .fade-carousel .carousel-inner .item .hero {
   opacity: 0;
   -webkit-transition: 2s all ease-in-out .1s;
@@ -158,7 +164,7 @@ Image credits: unsplash.com
   transition: 2s all ease-in-out .1s;
 }
 
-/* line 69, ../sass/module/_hero.scss */
+/* line 74, ../sass/module/_hero.scss */
 .fade-carousel .carousel-inner .item.active .hero {
   opacity: 1;
   -webkit-transition: 2s all ease-in-out .1s;
@@ -171,7 +177,7 @@ Image credits: unsplash.com
 /********************************/
 /*            Overlay           */
 /********************************/
-/* line 81, ../sass/module/_hero.scss */
+/* line 86, ../sass/module/_hero.scss */
 .overlay {
   position: absolute;
   width: 100%;
@@ -182,12 +188,12 @@ Image credits: unsplash.com
 /********************************/
 /*          Custom Buttons      */
 /********************************/
-/* line 91, ../sass/module/_hero.scss */
+/* line 96, ../sass/module/_hero.scss */
 .btn.btn-lg {
   padding: 10px 40px;
 }
 
-/* line 92, ../sass/module/_hero.scss */
+/* line 97, ../sass/module/_hero.scss */
 .btn.btn-hero,
 .btn.btn-hero:hover,
 .btn.btn-hero:focus {
@@ -201,7 +207,7 @@ Image credits: unsplash.com
 /********************************/
 /*       Slides backgrounds     */
 /********************************/
-/* line 105, ../sass/module/_hero.scss */
+/* line 110, ../sass/module/_hero.scss */
 .fade-carousel .slides .slide-1,
 .fade-carousel .slides .slide-2,
 .fade-carousel .slides .slide-3 {
@@ -211,17 +217,17 @@ Image credits: unsplash.com
   background-repeat: no-repeat;
 }
 
-/* line 113, ../sass/module/_hero.scss */
+/* line 118, ../sass/module/_hero.scss */
 .fade-carousel .slides .slide-1 {
   background-image: url(../img/hero.jpg);
 }
 
-/* line 116, ../sass/module/_hero.scss */
+/* line 121, ../sass/module/_hero.scss */
 .fade-carousel .slides .slide-2 {
   background-image: url(../img/hero2.jpg);
 }
 
-/* line 119, ../sass/module/_hero.scss */
+/* line 124, ../sass/module/_hero.scss */
 .fade-carousel .slides .slide-3 {
   background-image: url(../img/hero3.jpg);
 }
@@ -230,13 +236,13 @@ Image credits: unsplash.com
 /*          Media Queries       */
 /********************************/
 @media screen and (min-width: 980px) {
-  /* line 127, ../sass/module/_hero.scss */
+  /* line 132, ../sass/module/_hero.scss */
   .hero {
     width: 980px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 130, ../sass/module/_hero.scss */
+  /* line 135, ../sass/module/_hero.scss */
   .hero h1 {
     font-size: 4em;
   }
