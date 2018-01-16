@@ -618,3 +618,9 @@ footer hr {
   color: white;
   text-decoration: none;
 }
+
+/* line 1, ../sass/module/pages_css/_about.scss */
+.about--wrap {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
