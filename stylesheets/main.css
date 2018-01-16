@@ -87,6 +87,13 @@
   background-color: #a8c14b !important;
 }
 
+/* line 27, ../sass/module/_navbar.scss */
+.navbar-toggle {
+  color: #85ad00 !important;
+  font-size: 20px;
+  padding: 0px;
+}
+
 /*
 Fade content bs-carousel with hero headers
 Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
@@ -621,6 +628,6 @@ footer hr {
 
 /* line 1, ../sass/module/pages_css/_about.scss */
 .about--wrap {
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 40px;
 }
