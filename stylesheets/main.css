@@ -628,6 +628,10 @@ footer hr {
 
 /* line 1, ../sass/module/pages_css/_about.scss */
 .about--wrap {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+/* line 4, ../sass/module/pages_css/_about.scss */
+.about--wrap .img-thumbnail {
+  border-radius: 0px;
 }
