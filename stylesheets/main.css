@@ -75,6 +75,16 @@
   color: white;
   background-color: #85ad00 !important;
 }
+/* line 17, ../sass/module/_navbar.scss */
+.navbar-right a:focus {
+  color: white;
+  background-color: #a8c14b;
+}
+/* line 21, ../sass/module/_navbar.scss */
+.navbar-right a:active {
+  color: white;
+  background-color: #a8c14b !important;
+}
 
 /*
 Fade content bs-carousel with hero headers
@@ -208,12 +218,12 @@ Image credits: unsplash.com
 
 /* line 116, ../sass/module/_hero.scss */
 .fade-carousel .slides .slide-2 {
-  background-image: url(https://ununsplash.imgix.net/photo-1416339684178-3a239570f315?q=75&fm=jpg&s=c39d9a3bf66d6566b9608a9f1f3765af);
+  background-image: url(../img/hero2.jpg);
 }
 
 /* line 119, ../sass/module/_hero.scss */
 .fade-carousel .slides .slide-3 {
-  background-image: url(https://ununsplash.imgix.net/photo-1416339276121-ba1dfa199912?q=75&fm=jpg&s=9bf9f2ef5be5cb5eee5255e7765cb327);
+  background-image: url(../img/hero3.jpg);
 }
 
 /********************************/

@@ -14,4 +14,12 @@
 		color: white;
 		background-color: $primary-color !important;
 	}
+	a:focus{
+		color: white;
+		background-color: $light-primary;
+	}
+	a:active{
+		color: white;
+		background-color: $light-primary !important;
+	}
 }
