@@ -51,15 +51,17 @@ Image credits: unsplash.com
            -o-transform: translate3d(-50%,-50%,0);
               transform: translate3d(-50%,-50%,0);
 }
+
 .hero h1 {
-    font-size: 4em;    
+    font-size: 4em; 
+    font-family: $hero-font;   
     font-weight: bold;
     margin: 0;
     padding: 0;
 }
 
 .hero h3{
-  font-family: $heading-font;
+  //font-family: $heading-font;
   text-transform: Capitalize;
 }
 

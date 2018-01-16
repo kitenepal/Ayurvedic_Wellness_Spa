@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Pacifico&subset=cyrillic,latin-ext,vietnamese");
 @import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow");
+@import url("https://fonts.googleapis.com/css?family=Berkshire+Swash");
 /* line 1, ../sass/base/_base.scss */
 .heading {
   font-family: "Pacifico", cursive;
@@ -140,21 +141,21 @@ Image credits: unsplash.com
   transform: translate3d(-50%, -50%, 0);
 }
 
-/* line 54, ../sass/module/_hero.scss */
+/* line 55, ../sass/module/_hero.scss */
 .hero h1 {
   font-size: 4em;
+  font-family: "Berkshire Swash", cursive;
   font-weight: bold;
   margin: 0;
   padding: 0;
 }
 
-/* line 61, ../sass/module/_hero.scss */
+/* line 63, ../sass/module/_hero.scss */
 .hero h3 {
-  font-family: "Pacifico", cursive;
   text-transform: Capitalize;
 }
 
-/* line 66, ../sass/module/_hero.scss */
+/* line 68, ../sass/module/_hero.scss */
 .fade-carousel .carousel-inner .item .hero {
   opacity: 0;
   -webkit-transition: 2s all ease-in-out .1s;
@@ -164,7 +165,7 @@ Image credits: unsplash.com
   transition: 2s all ease-in-out .1s;
 }
 
-/* line 74, ../sass/module/_hero.scss */
+/* line 76, ../sass/module/_hero.scss */
 .fade-carousel .carousel-inner .item.active .hero {
   opacity: 1;
   -webkit-transition: 2s all ease-in-out .1s;
@@ -177,7 +178,7 @@ Image credits: unsplash.com
 /********************************/
 /*            Overlay           */
 /********************************/
-/* line 86, ../sass/module/_hero.scss */
+/* line 88, ../sass/module/_hero.scss */
 .overlay {
   position: absolute;
   width: 100%;
@@ -188,12 +189,12 @@ Image credits: unsplash.com
 /********************************/
 /*          Custom Buttons      */
 /********************************/
-/* line 96, ../sass/module/_hero.scss */
+/* line 98, ../sass/module/_hero.scss */
 .btn.btn-lg {
   padding: 10px 40px;
 }
 
-/* line 97, ../sass/module/_hero.scss */
+/* line 99, ../sass/module/_hero.scss */
 .btn.btn-hero,
 .btn.btn-hero:hover,
 .btn.btn-hero:focus {
@@ -207,7 +208,7 @@ Image credits: unsplash.com
 /********************************/
 /*       Slides backgrounds     */
 /********************************/
-/* line 110, ../sass/module/_hero.scss */
+/* line 112, ../sass/module/_hero.scss */
 .fade-carousel .slides .slide-1,
 .fade-carousel .slides .slide-2,
 .fade-carousel .slides .slide-3 {
@@ -217,17 +218,17 @@ Image credits: unsplash.com
   background-repeat: no-repeat;
 }
 
-/* line 118, ../sass/module/_hero.scss */
+/* line 120, ../sass/module/_hero.scss */
 .fade-carousel .slides .slide-1 {
   background-image: url(../img/hero.jpg);
 }
 
-/* line 121, ../sass/module/_hero.scss */
+/* line 123, ../sass/module/_hero.scss */
 .fade-carousel .slides .slide-2 {
   background-image: url(../img/hero2.jpg);
 }
 
-/* line 124, ../sass/module/_hero.scss */
+/* line 126, ../sass/module/_hero.scss */
 .fade-carousel .slides .slide-3 {
   background-image: url(../img/hero3.jpg);
 }
@@ -236,13 +237,13 @@ Image credits: unsplash.com
 /*          Media Queries       */
 /********************************/
 @media screen and (min-width: 980px) {
-  /* line 132, ../sass/module/_hero.scss */
+  /* line 134, ../sass/module/_hero.scss */
   .hero {
     width: 980px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 135, ../sass/module/_hero.scss */
+  /* line 137, ../sass/module/_hero.scss */
   .hero h1 {
     font-size: 4em;
   }
