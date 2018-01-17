@@ -165,12 +165,12 @@ Image credits: unsplash.com
 }
 
 /* line 55, ../sass/module/_hero.scss */
-.hero h1 {
-  font-size: 4em;
+.hero h2 {
+  font-size: 2.5em;
   font-family: "Berkshire Swash", cursive;
   font-weight: bold;
   margin: 0;
-  padding: 0;
+  padding: 50;
 }
 
 /* line 63, ../sass/module/_hero.scss */
