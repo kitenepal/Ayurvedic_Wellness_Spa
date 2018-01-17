@@ -3,6 +3,12 @@ $smBreak: 768px;
 $mdBreak: 992px;
 $lrgBreak: 1200px;
 
+.services{
+  &--padding{
+    margin-bottom: 50px;
+  }
+}
+
 #service-carousel {
   .carousel-fade {
     .carousel-inner {
@@ -65,8 +71,6 @@ $lrgBreak: 1200px;
     left: auto;
     right: 0;
     top: 0;
-    padding-bottom: 40px;
-    padding-top: 40px;
     text-align: left;
     text-shadow: none;
     color: $secondary-color !important;

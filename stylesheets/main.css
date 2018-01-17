@@ -283,23 +283,28 @@ Image credits: unsplash.com
   margin-top: 100px;
 }
 
-/* line 9, ../sass/module/_service.scss */
+/* line 7, ../sass/module/_service.scss */
+.services--padding {
+  margin-bottom: 50px;
+}
+
+/* line 15, ../sass/module/_service.scss */
 #service-carousel .carousel-fade .carousel-inner .item {
   transition-property: opacity;
 }
-/* line 13, ../sass/module/_service.scss */
+/* line 19, ../sass/module/_service.scss */
 #service-carousel .carousel-fade .carousel-inner .item,
 #service-carousel .carousel-fade .carousel-inner .active.left,
 #service-carousel .carousel-fade .carousel-inner .active.right {
   opacity: 0;
 }
-/* line 19, ../sass/module/_service.scss */
+/* line 25, ../sass/module/_service.scss */
 #service-carousel .carousel-fade .carousel-inner .active,
 #service-carousel .carousel-fade .carousel-inner .next.left,
 #service-carousel .carousel-fade .carousel-inner .prev.right {
   opacity: 1;
 }
-/* line 25, ../sass/module/_service.scss */
+/* line 31, ../sass/module/_service.scss */
 #service-carousel .carousel-fade .carousel-inner .next,
 #service-carousel .carousel-fade .carousel-inner .prev,
 #service-carousel .carousel-fade .carousel-inner .active.left,
@@ -307,58 +312,56 @@ Image credits: unsplash.com
   left: 0;
   transform: translate3d(0, 0, 0);
 }
-/* line 34, ../sass/module/_service.scss */
+/* line 40, ../sass/module/_service.scss */
 #service-carousel .carousel-fade .carousel-control {
   z-index: 2;
 }
-/* line 38, ../sass/module/_service.scss */
+/* line 44, ../sass/module/_service.scss */
 #service-carousel .carousel {
   background: #85ad00;
   font-family: 'Maven Pro', sans-serif;
 }
 @media (max-width: 768px) {
-  /* line 38, ../sass/module/_service.scss */
+  /* line 44, ../sass/module/_service.scss */
   #service-carousel .carousel {
     width: 100%;
     /*height:360px;*/
   }
 }
-/* line 46, ../sass/module/_service.scss */
+/* line 52, ../sass/module/_service.scss */
 #service-carousel .carousel-indicators {
   right: 20px;
   left: auto;
   width: auto;
 }
-/* line 51, ../sass/module/_service.scss */
+/* line 57, ../sass/module/_service.scss */
 #service-carousel .carousel-caption h3 {
   text-shadow: none;
 }
-/* line 63, ../sass/module/_service.scss */
+/* line 69, ../sass/module/_service.scss */
 #service-carousel .carousel-caption {
   /*position: relative;*/
   left: auto;
   right: 0;
   top: 0;
-  padding-bottom: 40px;
-  padding-top: 40px;
   text-align: left;
   text-shadow: none;
   color: #292929 !important;
 }
 @media (max-width: 1200px) {
-  /* line 63, ../sass/module/_service.scss */
+  /* line 69, ../sass/module/_service.scss */
   #service-carousel .carousel-caption {
     padding-top: 20px;
   }
 }
 @media (max-width: 992px) {
-  /* line 63, ../sass/module/_service.scss */
+  /* line 69, ../sass/module/_service.scss */
   #service-carousel .carousel-caption {
     padding-top: 15px;
   }
 }
 @media (max-width: 768px) {
-  /* line 63, ../sass/module/_service.scss */
+  /* line 69, ../sass/module/_service.scss */
   #service-carousel .carousel-caption {
     display: block;
     position: relative;
@@ -368,14 +371,14 @@ Image credits: unsplash.com
     padding-right: 20px;
   }
 }
-/* line 88, ../sass/module/_service.scss */
+/* line 92, ../sass/module/_service.scss */
 #service-carousel .item img {
   width: 670px;
   height: 464px;
   max-width: 58% !important;
 }
 @media (max-width: 992px) {
-  /* line 88, ../sass/module/_service.scss */
+  /* line 92, ../sass/module/_service.scss */
   #service-carousel .item img {
     width: 435px;
     height: 302px;
@@ -383,7 +386,7 @@ Image credits: unsplash.com
   }
 }
 @media (max-width: 768px) {
-  /* line 88, ../sass/module/_service.scss */
+  /* line 92, ../sass/module/_service.scss */
   #service-carousel .item img {
     width: 100%;
     display: block;
@@ -555,50 +558,49 @@ footer {
 /* line 5, ../sass/module/_footer.scss */
 footer h4 {
   color: white;
-  margin: 0px;
 }
-/* line 9, ../sass/module/_footer.scss */
+/* line 8, ../sass/module/_footer.scss */
 footer p {
   margin: 2px;
 }
-/* line 12, ../sass/module/_footer.scss */
+/* line 11, ../sass/module/_footer.scss */
 footer a {
   text-decoration: none;
   color: white;
 }
-/* line 16, ../sass/module/_footer.scss */
+/* line 15, ../sass/module/_footer.scss */
 footer a:hover {
   text-decoration: none;
   color: #a8c14b;
 }
-/* line 20, ../sass/module/_footer.scss */
+/* line 19, ../sass/module/_footer.scss */
 footer hr {
   margin: 6px 0px;
 }
 
-/* line 25, ../sass/module/_footer.scss */
+/* line 24, ../sass/module/_footer.scss */
 .footer-info-single ul li a {
   display: block;
   color: #aaa;
   font-size: 18px;
 }
 
-/* line 31, ../sass/module/_footer.scss */
+/* line 30, ../sass/module/_footer.scss */
 .footer-info-single ul li a:hover {
   color: #b78c33;
 }
 
-/* line 36, ../sass/module/_footer.scss */
+/* line 35, ../sass/module/_footer.scss */
 .social-media {
   margin-top: 10px;
 }
 
-/* line 40, ../sass/module/_footer.scss */
+/* line 39, ../sass/module/_footer.scss */
 .social-media ul li {
   text-align: center;
 }
 
-/* line 44, ../sass/module/_footer.scss */
+/* line 43, ../sass/module/_footer.scss */
 .social-media ul li a {
   display: inline-block;
   width: 45px;
@@ -611,18 +613,18 @@ footer hr {
   transition: 0.5s;
 }
 
-/* line 56, ../sass/module/_footer.scss */
+/* line 55, ../sass/module/_footer.scss */
 .social-media ul li a:hover {
   background: #85ad00;
   color: white;
   border-color: #b78c33;
 }
 
-/* line 62, ../sass/module/_footer.scss */
+/* line 61, ../sass/module/_footer.scss */
 .right {
   text-align: right;
 }
-/* line 64, ../sass/module/_footer.scss */
+/* line 63, ../sass/module/_footer.scss */
 .right h4 {
   margin-right: 7px;
 }
@@ -644,6 +646,10 @@ footer hr {
 }
 
 /* line 2, ../sass/module/pages_css/_about.scss */
+.about--wrap h2 {
+  margin-top: 5px;
+}
+/* line 5, ../sass/module/pages_css/_about.scss */
 .about--wrap .img-thumbnail {
   border-radius: 0px;
 }
@@ -656,5 +662,5 @@ footer hr {
 
 /* line 2, ../sass/module/pages_css/_advantages.scss */
 .paragraph li {
-  padding: 5px 0px;
+  padding: 3px 0px;
 }
