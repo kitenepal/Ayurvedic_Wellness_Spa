@@ -654,6 +654,11 @@ footer hr {
   border-radius: 0px;
 }
 
+/* line 11, ../sass/module/pages_css/_about.scss */
+.paragraph--list {
+  padding: 0px 20px;
+}
+
 /* line 1, ../sass/module/pages_css/_services.scss */
 .services--wrap {
   margin-top: 50px;
